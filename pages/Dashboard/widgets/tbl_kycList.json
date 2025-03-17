@@ -43,7 +43,7 @@
     "Address",
     "Comment"
   ],
-  "columnUpdatedAt": 1680098488558,
+  "columnUpdatedAt": 1742246606262,
   "columnWidthMap": {
     "Created": 135,
     "FullName": 182,
@@ -481,6 +481,7 @@
   "rightColumn": 22,
   "searchKey": "",
   "serverSidePaginationEnabled": false,
+  "showInlineEditingOptionDropdown": true,
   "tableData": "{{utils.getAllKyc.data ? utils.getAllKyc.data : []}}",
   "textColor": "",
   "textSize": "0.875rem",

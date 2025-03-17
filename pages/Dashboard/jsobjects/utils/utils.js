@@ -93,20 +93,34 @@ export default {
 	pieChartData: () => {
 		const counts = {};
 		getAllKyc.data.forEach((obj) => {
-			const status = obj.status;
+			let status = obj.status;
+			if (status === 'BLACKLISTED') status = 'Vulnerable';
+			else if (status === 'REJECTED') status = 'Safe';
+			else if (status === 'PENDING') status = 'Critical';
+			else if (status === 'VERIFIED') status = 'Endangered';
+
 			if (!counts[status]) {
 				counts[status] = 1;
 			} else {
 				counts[status]++;
 			}
 		});
+
+		const colorMapping = {
+			"Endangered": "ORANGE",
+			"Safe": "GREEN",
+			"Vulnerable": "YELLOW",
+			"Critical": "RED"
+		};
+
 		const result = [];
 		for (const [status, count] of Object.entries(counts)) {
-			result.push({ x: status, y: count });
+			result.push({ x: status, y: count, color: colorMapping[status] });
 		}
-		return result;
 
+		return result;
 	},
+
 
 	chartData: () => {
 
