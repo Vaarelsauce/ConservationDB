@@ -1,0 +1,73 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "{{tbl_kycList.triggeredRow.status == 'Pending' ? '#fef08a': tbl_kycList.triggeredRow.status == 'Rejected' ? '#fca5a5': tbl_kycList.triggeredRow.status == 'Blacklisted' ? '#d4d4d8': tbl_kycList.triggeredRow.status == 'Verified' ? '#86efac':''}}",
+  "borderColor": "{{tbl_kycList.triggeredRow.status == 'Pending' ? '#fef08a': tbl_kycList.triggeredRow.status == 'Rejected' ? '#fca5a5': tbl_kycList.triggeredRow.status == 'Blacklisted' ? '#d4d4d8': tbl_kycList.triggeredRow.status == 'Verified' ? '#86efac':''}}",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "7",
+  "bottomRow": 5,
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "truncateButtonColor"
+    },
+    {
+      "key": "fontFamily"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "text"
+    },
+    {
+      "key": "backgroundColor"
+    },
+    {
+      "key": "borderColor"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "backgroundColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+  "fontSize": "1rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "67rbyvuxlz",
+  "leftColumn": 50,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "originalBottomRow": 6,
+  "originalTopRow": 1,
+  "overflow": "NONE",
+  "parentColumnSpace": 11.59375,
+  "parentId": "w7dptrkv33",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchTags": [
+    "typography",
+    "paragraph",
+    "label"
+  ],
+  "shouldTruncate": false,
+  "text": "{{tbl_kycList.triggeredRow.status}}",
+  "textAlign": "CENTER",
+  "textColor": "#52525b",
+  "topRow": 1,
+  "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "a7w8jomp70",
+  "widgetName": "Text5"
+}

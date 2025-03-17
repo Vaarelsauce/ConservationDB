@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 44,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconName": "caret-left",
+  "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "82cgmpfsd9",
+  "leftColumn": 2,
+  "minWidth": 50,
+  "parentColumnSpace": 18.8125,
+  "parentId": "3ln3vyv4xx",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 7,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "topRow": 33,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "li6t37aaal",
+  "widgetName": "IconButton8Copy1"
+}

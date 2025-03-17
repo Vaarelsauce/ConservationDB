@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 48,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "MultiSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a3495809ae48291a64404f3bb04b0e69.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "b01s9m7jmz",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Uploaded Document type",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 57,
+  "originalTopRow": 50,
+  "parentColumnSpace": 11.59375,
+  "parentId": "w7dptrkv33",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s)",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "searchTags": [
+    "dropdown",
+    "tags"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Passport\",\n    \"value\": \"Passport\"\n  },\n\t{\n    \"label\": \"PAN card\",\n    \"value\": \"PAN card\"\n  },\n\t{\n    \"label\": \"Aadhaar card\",\n    \"value\": \"Aadhaar card\"\n  },\n  {\n    \"label\": \"Utility bill\",\n    \"value\": \"Utility bill\"\n  },\n  {\n    \"label\": \"Phone bill\",\n    \"value\": \"Phone bill\"\n  }\n]",
+  "topRow": 41,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "x9gon4hba7",
+  "widgetName": "MultiSelect1"
+}

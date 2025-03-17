@@ -1,0 +1,10 @@
+INSERT INTO kyc_document
+  ("user", document_type, issue_date, expiry_date, data)
+VALUES
+  (
+    {{ tbl_kycList.selectedRow.Id }},
+    {{ sel_documentType.selectedOptionValue }},
+    {{ dat_issueDate.formattedDate }},
+		{{ dat_expiryDate.formattedDate }},
+		{{ inp_imageUrl.text }}
+  );

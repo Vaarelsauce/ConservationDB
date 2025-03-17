@@ -1,0 +1,53 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 81,
+  "bottomRowBeforeCollapse": 81,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "refresh",
+  "iconSVG": "/static/media/icon.1a0c634ac75f9fa6b6ae7a8df882a3ba.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": false,
+  "key": "82cgmpfsd9",
+  "leftColumn": 30,
+  "minWidth": 50,
+  "onClick": "{{\nstoreValue('selectedStatus', '');\nutils.getAllKyc();\n}}",
+  "originalBottomRow": 81,
+  "originalTopRow": 76,
+  "parentColumnSpace": 19.8125,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 32,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "topRow": 76,
+  "topRowBeforeCollapse": 76,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "gv7ksscvho",
+  "widgetName": "icn_resetButton"
+}

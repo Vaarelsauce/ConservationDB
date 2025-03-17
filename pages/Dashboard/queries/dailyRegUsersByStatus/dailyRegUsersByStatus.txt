@@ -1,0 +1,10 @@
+SELECT date_range.date, COALESCE(counts.num_entries, 0) AS count
+FROM generate_series(NOW() - INTERVAL '9 days', NOW(), INTERVAL '1 day') date_range(date)
+LEFT JOIN (
+  SELECT DATE(created) AS date, COUNT(*) AS num_entries
+  FROM kyc 
+  WHERE status = {{this.params.status || 'PENDING'}} 
+  AND created >= NOW() - INTERVAL '9 days'
+  GROUP BY DATE(created)
+) counts ON counts.date = date_range.date::date
+ORDER BY date_range.date;

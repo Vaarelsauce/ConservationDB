@@ -1,0 +1,37 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+  "displayName": "Image",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "enableDownload": false,
+  "enableRotation": false,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+  "image": "https://static-00.iconduck.com/assets.00/verified-protection-icon-414x512-ayl19at1.png",
+  "imageShape": "RECTANGLE",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "2hin6zy3z3",
+  "leftColumn": 34,
+  "maxZoomLevel": 1,
+  "objectFit": "contain",
+  "parentColumnSpace": 14.734375,
+  "parentId": "u76nlwv1ud",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 37,
+  "topRow": 4,
+  "type": "IMAGE_WIDGET",
+  "version": 1,
+  "widgetId": "g0x7ra1se2",
+  "widgetName": "img_verifiedIcon"
+}

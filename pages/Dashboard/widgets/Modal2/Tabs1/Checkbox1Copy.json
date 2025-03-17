@@ -1,0 +1,54 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignWidget": "LEFT",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 66,
+  "defaultCheckedState": false,
+  "displayName": "Checkbox",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "{{Select2.selectedOptionValue == 'Verified' || Select2.selectedOptionValue == 'Rejected' || Select2.selectedOptionValue == 'Blacklisted'}}",
+  "key": "fkf0uk7h2l",
+  "label": "Send email notification",
+  "labelPosition": "Right",
+  "leftColumn": 22,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "originalBottomRow": 21,
+  "originalTopRow": 17,
+  "parentColumnSpace": 12.0703125,
+  "parentId": "j2i5grjg8r",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 42,
+  "searchTags": [
+    "boolean"
+  ],
+  "topRow": 62,
+  "type": "CHECKBOX_WIDGET",
+  "version": 1,
+  "widgetId": "0lkfhj4w8i",
+  "widgetName": "Checkbox1Copy"
+}

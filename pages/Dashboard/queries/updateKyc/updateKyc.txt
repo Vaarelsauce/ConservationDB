@@ -1,0 +1,10 @@
+UPDATE kyc
+  SET first_name = {{inp_firstName.text}},
+			last_name = {{inp_lastName.text}},
+			email = {{inp_email.text}},
+			phone = {{inp_phone.text}},
+			address = {{inp_address.text}},
+			date_of_birth = {{dat_dob.formattedDate}},
+			status = {{sel_verificationStatus.selectedOptionValue}},
+			comment = {{rte_comments.text || ''}}
+  WHERE id = {{ tbl_kycList.selectedRow.Id }};

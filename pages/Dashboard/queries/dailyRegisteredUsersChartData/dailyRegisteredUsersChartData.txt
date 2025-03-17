@@ -1,0 +1,25 @@
+-- SELECT date_series.day, COUNT(kyc.created) as count
+-- FROM (
+  -- SELECT generate_series(
+    -- DATE_TRUNC('day', NOW() - INTERVAL '11 DAYS'),
+    -- DATE_TRUNC('day', NOW()),
+    -- INTERVAL '1 DAY'
+  -- ) as day
+-- ) AS date_series
+-- LEFT JOIN kyc 
+-- ON DATE_TRUNC('day', kyc.created) = date_series.day
+-- GROUP BY date_series.day
+-- ORDER BY date_series.day ASC;
+
+SELECT date_series.day, COUNT(kyc.created) as count
+FROM (
+  SELECT generate_series(
+    DATE '2023-03-19',
+    DATE '2023-03-30',
+    INTERVAL '1 DAY'
+  ) as day
+) AS date_series
+LEFT JOIN kyc 
+ON DATE_TRUNC('day', kyc.created) = date_series.day
+GROUP BY date_series.day
+ORDER BY date_series.day ASC;

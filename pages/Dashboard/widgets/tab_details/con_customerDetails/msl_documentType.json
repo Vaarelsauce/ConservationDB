@@ -1,0 +1,64 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 48,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( appsmith.store.kycDocument ? appsmith.store.kycDocument.map(d => {\n\treturn d.document_type\n}) : ''))(msl_documentType.options, msl_documentType.serverSideFiltering) }}",
+  "displayName": "MultiSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.a3495809ae48291a64404f3bb04b0e69.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "b01s9m7jmz",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Uploaded Document type(s)",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 48,
+  "originalTopRow": 41,
+  "parentColumnSpace": 11.59375,
+  "parentId": "i0lwe26fsm",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s)",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 32,
+  "searchTags": [
+    "dropdown",
+    "tags"
+  ],
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"label\": \"Passport\",\n    \"value\": \"Passport\"\n  },\n\t{\n    \"label\": \"Drivers license\",\n    \"value\": \"Drivers license\"\n  },\n  {\n    \"label\": \"Utility bill\",\n    \"value\": \"Utility bill\"\n  },\n  {\n    \"label\": \"Phone bill\",\n    \"value\": \"Phone bill\"\n  }\n]",
+  "topRow": 41,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "qid08vb6bd",
+  "widgetName": "msl_documentType"
+}
