@@ -33,9 +33,9 @@
   "key": "xm46ryrjtr",
   "leftColumn": 5,
   "minWidth": 120,
-  "onClick": "{{\n\nstoreValue('selectedStatus', '')\n\nutils.getAllKyc()\n\nnavigateTo(appsmith.URL.fullPath + '#h5fkxxm3ic')\n\n}}",
+  "onClick": "{{ \n  storeValue('selectedStatus', '') \n\n  Query_GetWildlifeData.run()  // Replace with actual query name\n\n  navigateTo(appsmith.URL.fullPath + '#wildlife-dashboard')  \n}}",
   "parentColumnSpace": 18.26171875,
-  "parentId": "u76nlwv1ud",
+  "parentId": "1w6s7hxc58",
   "parentRowSpace": 10,
   "placement": "START",
   "recaptchaType": "V3",
@@ -51,6 +51,6 @@
   "topRow": 9,
   "type": "BUTTON_WIDGET",
   "version": 1,
-  "widgetId": "ls9wywyrrj",
-  "widgetName": "btn_allUserAction"
+  "widgetId": "yyhne0dh9m",
+  "widgetName": "btn_allUserActionCopy"
 }

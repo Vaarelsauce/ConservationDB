@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO kyc_document\n  (\"user\", document_type, issue_date, expiry_date, data)\nVALUES\n  (\n    {{ tbl_kycList.selectedRow.Id }},\n    {{ sel_documentType.selectedOptionValue }},\n    {{ dat_issueDate.formattedDate }},\n\t\t{{ dat_expiryDate.formattedDate }},\n\t\t{{ inp_imageUrl.text }}\n  );",
+      "body": "INSERT INTO kyc_document\n  (\"user\", document_type, issue_date, expiry_date, data)\nVALUES\n  (\n\t\t{{ tbl_kycList.selectedRow.Id }},\n\t\t{{ sel_documentType.selectedOptionValue }},\n\t\t{{ dat_issueDate.formattedDate }},\n\t\t{{ dat_expiryDate.formattedDate }},\n\t\t{{ inp_imageUrl.text }}\n\t);",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

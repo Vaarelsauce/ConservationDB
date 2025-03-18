@@ -1,1 +1,18 @@
-SELECT * FROM kyc ORDER BY id ASC;
+SELECT 
+    id,
+    first_name,
+    last_name,
+    email,
+    date_of_birth,
+    address,
+    phone,
+    comment,
+    CASE 
+        WHEN status = 'BLACKLISTED' THEN 'Vulnerable'
+        WHEN status = 'REJECTED' THEN 'Safe'
+        WHEN status = 'PENDING' THEN 'Critical'
+        WHEN status = 'VERIFIED' THEN 'Endangered'
+        ELSE status
+    END AS status
+FROM kyc
+ORDER BY id ASC;

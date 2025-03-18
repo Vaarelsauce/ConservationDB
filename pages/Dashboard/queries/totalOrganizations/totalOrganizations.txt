@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS totalAnimals FROM organization;

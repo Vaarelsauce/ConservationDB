@@ -28,7 +28,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "67rbyvuxlz",
-  "leftColumn": 38,
+  "leftColumn": 54,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -36,24 +36,24 @@
   "originalTopRow": 4,
   "overflow": "NONE",
   "parentColumnSpace": 14.734375,
-  "parentId": "u76nlwv1ud",
+  "parentId": "1w6s7hxc58",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 48,
+  "rightColumn": 64,
   "searchTags": [
     "typography",
     "paragraph",
     "label"
   ],
   "shouldTruncate": false,
-  "text": "{{utils.getDashboardMetrics.data.verifiedCount}}",
+  "text": "{{ totalAnimals.data[0].totalAnimals }}",
   "textAlign": "LEFT",
   "textColor": "#3f3f46",
   "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "n9mtlxtozm",
-  "widgetName": "txt_verifiedCount"
+  "widgetId": "pyggjodx3n",
+  "widgetName": "txt_blacklistedCountCopy"
 }

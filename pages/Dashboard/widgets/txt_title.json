@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 28,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -29,8 +29,8 @@
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "originalBottomRow": 8,
-  "originalTopRow": 3,
+  "originalBottomRow": 28,
+  "originalTopRow": 23,
   "overflow": "NONE",
   "parentColumnSpace": 20.0625,
   "parentId": "0",
@@ -47,7 +47,7 @@
   "text": "ConservationDB",
   "textAlign": "LEFT",
   "textColor": "#3f3f46",
-  "topRow": 3,
+  "topRow": 23,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

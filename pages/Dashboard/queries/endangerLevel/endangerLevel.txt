@@ -1,0 +1,14 @@
+SELECT 
+    CASE 
+        WHEN species_count BETWEEN 0 AND 10 THEN 'Critical'
+        WHEN species_count BETWEEN 11 AND 50 THEN 'Endangered'
+        WHEN species_count BETWEEN 51 AND 100 THEN 'Vulnerable'
+        ELSE 'Safe'
+    END AS endangerLevel,
+    COUNT(*) AS species_count
+FROM (
+	SELECT S_ID, COUNT(TRACKING_ID) AS species_count
+	FROM wildlife.SURVEY_ANIMAL
+	GROUP BY S_ID
+) AS species_count_table
+GROUP BY endangerLevel;

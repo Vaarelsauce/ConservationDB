@@ -34,7 +34,7 @@
   "minWidth": 450,
   "overflow": "NONE",
   "parentColumnSpace": 14.734375,
-  "parentId": "u76nlwv1ud",
+  "parentId": "1w6s7hxc58",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -45,13 +45,13 @@
     "label"
   ],
   "shouldTruncate": false,
-  "text": "{{utils.getDashboardMetrics.data.allUserCount}}",
+  "text": "{{ totalOrganizations.data[0].totalAnimals }}",
   "textAlign": "LEFT",
   "textColor": "#3f3f46",
   "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "bet5e4206y",
-  "widgetName": "txt_allUsersCount"
+  "widgetId": "3e3r7qtru5",
+  "widgetName": "txt_allUsersCountCopy"
 }

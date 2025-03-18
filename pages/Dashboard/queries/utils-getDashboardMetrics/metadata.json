@@ -27,6 +27,6 @@
     "fullyQualifiedName": "utils.getDashboardMetrics",
     "name": "getDashboardMetrics",
     "pageId": "Dashboard",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

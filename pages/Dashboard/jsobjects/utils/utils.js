@@ -57,19 +57,19 @@ export default {
 	},
 
 	kycStatusColor: (status) => {
-		if (status === 'BLACKLISTED') {
+		if (status === 'Critical') {
 			return {
 				status: 'BLACKLISTED',
 				color: 'RGB(255, 0, 0)'
 			};
 		};
-		if (status === 'REJECTED') {
+		if (status === 'Endangered') {
 			return {
 				status: 'REJECTED',
 				color: 'RGB(255, 0, 0)'
 			};
 		}
-		if (status === 'PENDING') {
+		if (status === 'Vulnerable') {
 			return {
 				status: 'PENDING',
 				color: 'RGB(255, 165, 0)'

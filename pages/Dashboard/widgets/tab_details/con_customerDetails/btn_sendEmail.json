@@ -51,7 +51,7 @@
     "click",
     "submit"
   ],
-  "text": "Send Reminder",
+  "text": "Save Information",
   "tooltip": "Send reminder to this user",
   "topRow": 7,
   "type": "BUTTON_WIDGET",

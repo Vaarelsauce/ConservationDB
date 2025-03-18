@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM kyc ORDER BY id ASC;",
+      "body": "SELECT \n    id,\n    first_name,\n    last_name,\n    email,\n    date_of_birth,\n    address,\n    phone,\n    comment,\n    CASE \n        WHEN status = 'BLACKLISTED' THEN 'Vulnerable'\n        WHEN status = 'REJECTED' THEN 'Safe'\n        WHEN status = 'PENDING' THEN 'Critical'\n        WHEN status = 'VERIFIED' THEN 'Endangered'\n        ELSE status\n    END AS status\nFROM kyc\nORDER BY id ASC;\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

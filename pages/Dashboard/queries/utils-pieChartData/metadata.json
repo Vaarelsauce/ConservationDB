@@ -23,10 +23,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "utils.pieChartData",
     "name": "pieChartData",
     "pageId": "Dashboard",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
