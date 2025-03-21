@@ -1,6 +1,5 @@
 # ConservationDB![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
-
-This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
+ConservationDB is a wildlife conservation database built with MySQL on Azure, designed to track animal populations, monitor trends, and support conservation efforts. It stores detailed data on species, habitats, populations, and organizations. The interactive UI, built with Appsmith and powered by SQL and JavaScript, allows users to query and visualize population trends, endangered species, and habitat distributions. The project is intended for use by conservationists, educators, researchers, and the public to support wildlife conservation.
 <!--
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
 
